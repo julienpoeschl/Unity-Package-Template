@@ -1,5 +1,5 @@
 # Template
-This is a template to create [Unity](https://unity.com) packages. Unity packages are installed into the `Packages` instead of your `Assets`. They are a great way of clearing of your `Assets` folder and allow you to make systems you've written easily reusable.
+This is a template to create [Unity](https://unity.com) packages. Unity packages are installed into `/Packages` instead of `/Assets`. They are a great way of clearing of your `/Assets` folder and allow you to make systems you've written easily reusable.
 
 # Installation
 **Local Installation (for development)**
