@@ -10,6 +10,7 @@ You'll firstly want to get a local version of your package for development.
 4. In your Unity project (IDE) access the `manifest.json` in `/Package`. Add an entry with `com.yourname.packagename` (or your new names) and link it to your local path using the `file:` prefix: `"file:C:/.../com.yourname.packagename"`.
 5. Now reload the Unity Editor. The package should get installed automatically.
 6. Now you can use the first IDE instance to work on your package and either close the second or develop the project.
+   
 **Installation from Github**
 After finishing your package, you can import it from [Github](https://github.com) instead of locally.
 1. Upload your package to Github or push your final changes.
