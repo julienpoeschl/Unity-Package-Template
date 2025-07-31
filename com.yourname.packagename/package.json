@@ -1,5 +1,5 @@
 {
-  "name": "com.yourname.mypackage",
+  "name": "com.yourname.packagename",
   "version": "1.0.0",
   "displayName": "My Package",
   "description": "A reusable Unity system.",
