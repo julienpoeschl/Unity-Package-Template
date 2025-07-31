@@ -4,6 +4,9 @@
   "displayName": "My Package",
   "description": "A reusable Unity system.",
   "unity": "6000.0",
+  "dependencies": {
+    
+  },
   "author": {
     "name": "Your Name",
     "url": "https://github.com/yourname"
