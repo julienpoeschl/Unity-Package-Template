@@ -6,13 +6,21 @@ namespace packagename
     public class RuntimeMonoBehaviour : MonoBehaviour
     {
         #region Fields and Properties
-    
-        [SerializeField] private float exampleValueA = 1f;
-        public float exampleValueB = 3f;
+
+
 
         #endregion
-    
-    
+
+
+
+
+
+        #region Events
+
+
+        #endregion
+
+
 
 
 
