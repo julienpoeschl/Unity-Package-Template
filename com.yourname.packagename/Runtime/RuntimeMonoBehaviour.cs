@@ -1,4 +1,4 @@
-using System;
+using System.Collections;
 using UnityEngine;
 
 namespace packagename
@@ -8,13 +8,16 @@ namespace packagename
         #region Fields and Properties
     
         [SerializeField] private float exampleValueA = 1f;
-        private float exampleValueB = 2f;
-        public float exampleValue3 = 3f;
-    
+        public float exampleValueB = 3f;
+
         #endregion
     
-        #region Initialization
     
+
+
+
+        #region Initialization
+
         private void Awake()
         {
             // Called when the script instance is being loaded
@@ -36,7 +39,11 @@ namespace packagename
         }
     
         #endregion
+      
     
+
+
+  
         #region Update Loop
     
         private void Update()
@@ -55,7 +62,11 @@ namespace packagename
         }
     
         #endregion
+        
     
+
+
+
         #region Rendering and Visibility
     
         private void OnBecameVisible() { }
@@ -67,7 +78,11 @@ namespace packagename
         private void OnDrawGizmosSelected() { }
         
         #endregion
+        
     
+
+
+
         #region Physics and Collisions
     
         private void OnCollisionEnter(Collision collision) { }
@@ -83,7 +98,11 @@ namespace packagename
         private void OnJointBreak(float breakForce) { }
     
         #endregion
+        
     
+
+
+
         #region Application and Focus
     
         private void OnApplicationFocus(bool hasFocus) { }
@@ -93,7 +112,11 @@ namespace packagename
         private void OnApplicationQuit() { }
     
         #endregion
+        
     
+
+
+
         #region Disable and Destroy
     
         private void OnDisable()
@@ -107,12 +130,20 @@ namespace packagename
         }
     
         #endregion
+    
+    
+
+
 
         #region Public API Methods
 
         public void Func() {  }
 
         #endregion
+    
+    
+
+
 
         #region Input and Event Handlers
 
@@ -120,16 +151,23 @@ namespace packagename
         public void OnEvent() { }
 
         #endregion
+    
+    
+
+
 
         #region Internal Methods and Helpers
     
         private void Help() { }
     
         #endregion
+        
     
+
+
+
         #region Coroutines
     
-        // Example coroutine
         private IEnumerator ExampleCoroutine()
         {
             yield return null;
