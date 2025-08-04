@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-namespace packagename
+namespace PackageSpace
 {
     public class RuntimeMonoBehaviour : MonoBehaviour
     {
