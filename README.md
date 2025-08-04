@@ -8,7 +8,7 @@ You'll firstly want to get a local version of your package for development.
 
 1. Use this template to create a new repository (recommended) or clone this one directly.
 2. Now open a Unity project to develop your own package. Open two instances of your prefered IDE (recommended). One for your local version of your repository and the other for the Unity project.
-3. The empty template can be imported to your Unity project as is, but you might want to first exchange every occurence of `yourname` or `packagename` with your own. You can do this with `setup.ps1` (windows) automatically. The template also contains two `README` (one in the repository root and another in the package folder) and a `LICENSE` that you could update.
+3. The empty template can be imported to your Unity project as is, but you might want to first exchange every occurence of `yourname` or `packagename` with your own. You can do this with `setup.ps1` (Windows) automatically. The template also contains two `README` (one in the repository root and another in the package folder) and a `LICENSE` that you could update.
 
 
 4. In your Unity project (IDE) access the `manifest.json` in `/Package`. Add an entry with `com.yourname.packagename` (or your new names) and link it to your local path using the `file:` prefix: `"file:C:/.../com.yourname.packagename"` (Windows example).
