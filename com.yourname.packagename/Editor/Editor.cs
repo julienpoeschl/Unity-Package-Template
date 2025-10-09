@@ -1,5 +1,5 @@
 
-namespace PackageSpace
+namespace yourname.PackageSpace
 {
     
 }
