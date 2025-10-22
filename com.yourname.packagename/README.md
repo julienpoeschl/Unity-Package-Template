@@ -1,1 +1,1 @@
-Add your own README for your package.
+Add your own README to your package.
