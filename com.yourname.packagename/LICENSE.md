@@ -1,1 +1,1 @@
-Add your own License for your package.
+Add your own License to your package.
